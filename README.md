@@ -1,21 +1,31 @@
-# SAE1.05-06 : Création d'un site Web
 
-**Bienvenue sur le dépot GIT de LA SAE1.05-06**
+# SHOBS: The Leading Security Solution
 
-Ce dépot comprend tout le travail effectué lors de la réalisation du site.
-Lien du site sur le serveur de l'IUT : `https://dwarves.iut-fbleau.fr/~blanchonb/`
+Welcome to the repository of SHOBS, the innovative application that is spearheading the fight against harassment and insecurity. SHOBS, a mobile application connected to a unique security badge, is a groundbreaking development in personal safety technology.
 
-**Présentation et histoire de notre entreprise**
+## About SHOBS
 
-`SHOBS` est une entreprise qui tire son nom directement de ses créateurs : `S`amet, `H`assan, `O`scar, `B`aptiste et la lettre `S` correspondant à "`Security`".
-Elle est spécialisée dans la lutte contre le harcèlement et les insécurités, grâce au développement d'une application mobile, connectée à un badge de sécurité nommé "SHOBS". Lorsque qu'un utilisateur de notre application appuie sur son SHOBS, un signal est envoyé dans un rayon précis pour signaler un besoin d'aide urgent, ou encore une situation de danger. Ce badge fonctionne donc grâce à un système de géolocalisation. Cette solution innovante, fait de SHOBS la start-up n°1 sur le marché des services de sécurité, contribuant à améliorer la qualité de vie de la population et à prévenir en cas d'harcèlement.
+SHOBS is a mobile application linked to a "SHOBS" badge, designed to enhance personal safety. In an emergency or dangerous situation, pressing the SHOBS badge sends out a signal within a specific radius to indicate an urgent need for help. This feature leverages advanced geolocation technology, making SHOBS a leader in the security services market.
 
+## Our Mission
 
-**Répartition du code en différents fichiers**
+At SHOBS, we're committed to improving the quality of life by providing innovative solutions to prevent harassment and enhance security. Our goal is to ensure that everyone has access to immediate help in times of need.
 
-Les langages utilisés seront repertoriés dans différents  dossiers.
-Le dossier `site_web` en comporte plusieurs répertoriant les codes sources : CSS `css`, JavaScript `js` ainsi qu'HTML au sein même du dossier `site_web`
+## Code Structure
 
+The code for our website is organized into various folders, each dedicated to a specific programming language. The repository is structured as follows:
 
+- `site_web/`: The main directory for our website's source code.
+  - `css/`: Contains all CSS files for styling the website.
+  - `js/`: Holds the JavaScript files for dynamic functionality.
+  - `HTML files`: Located directly within the `site_web/` directory, these files define the structure of the website.
 
+## Technologies
 
+SHOBS is developed using a mix of modern technologies, ensuring a seamless and user-friendly experience. Our tech stack includes:
+
+- HTML: For structuring the web content.
+- CSS: For styling and presentation of the web pages.
+- JavaScript: For interactive and dynamic user interfaces.
+
+Thank you for visiting our repository. We believe in creating a safer world, one click at a time.
