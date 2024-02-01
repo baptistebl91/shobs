@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #e5e5e5;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #040108;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #e7bcd5;
+}
+/*scrollbar-end*/
+
+
+*{
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+  list-style:none;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x:hidden;
+}
+
+/*header*/
+header {
+  background-color: #0a0a0a;
+  height: 100px ;
+  width: 100%;
+  top:0;
+  left :0;
+  position:sticky;
+  z-index: 2;
+
+}
+
+header .barnav {
+  height: 100%;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  color:rgb(255, 255, 255);
+}
+
+.barnav .menudenavigation ul {
+  display: flex;
+}
+
+.barnav .menudenavigation ul li {
+  margin: 0 50px 0 20px;
+  color:rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.barnav a{
+  color: #ffffff;
+}
+
+.barnav a img{
+height:70%;
+width: 70%;
+}
+
+.barnav .menudenavigation ul li a:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+/*header*/
+
+
+
+
+/* Notre identité*/
+.identité .apparition-titre{
+  opacity: 0; transition: all 1s;
+
+}
+
+.identité h1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 4em;
+    color: #070707;
+    margin: 30px 0px 0px ;
+}
+
+.identité .principal .image  {
+    display: flex;
+}
+.identité .principal .image img {
+    height: 100% ;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 170px;
+}
+
+.principal{
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+ .principal .content{
+    flex:1;
+    padding:10px;
+
+ }
+  .principal h4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 700px;
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+  }
+
+/* identité-end*/
+.btn-arrow {
+  height: 50px;
+  width: 50px;
+  background: rgb(248, 250, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0px 1px 6px #4d4d4d;
+  color:rgb(46, 46, 46);
+}
+.icone {
+  width: 25px;
+  z-index: 2;
+}
+/*Notre RSE*/
+
+.premieres-presentations{
+    background-color: #b9c3fd;
+    color:rgb(0, 0, 0);
+    padding:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+    
+  }
+  .premieres-presentations h1 {
+    display: flex;
+    align-items: center;
+    background-color: #b9c3fd;
+    font-size: 4em;
+}
+
+
+  .premieres-presentations .notre-RSE .image  {
+    display: flex;
+}
+.premieres-presentations .notre-RSE .image img {
+    height: 100% ;
+    display: flex;
+    margin-right: 170px;
+    width:300px;
+}
+.notre-RSE{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color: #b9c3fd;
+    margin: 0px 170px 0px 170px;
+  }
+
+  .principal h4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 700px;
+    font-size: 1.6rem;
+    color:#181818;
+    padding:1rem 0;
+    line-height: 1.8;
+  }
+
+  
+  .notre-RSE .gauche{
+    padding:1em;
+    max-width: 700px;
+  }
+
+  .notre-RSE p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+/*Notre RSE-end*/
+
+/*offre*/
+  .offres{
+    padding:30px;
+    background-color: #808db8;
+    background-position:center;
+    color:rgb(0, 0, 0);
+  }
+  
+  .offres h1{
+    text-align:center;
+    color: #040108;
+    font-size: 23px;
+  }
+  .offres p{
+    text-align:center;
+    color: #040108;
+    font-size: 23px;
+  }
+  
+  .offres .offres-cartes{
+    margin-top: 30px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .offres .carte{
+    height: 129px;
+    width: 169px;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #4d4d4d;
+    color:#000;
+    padding:20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offres .carte img{
+    height: 60px;
+  }
+/*offre-end*/
+
+
+/*Services*/
+
+.Services_produits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9c3fd;
+}
+.Services_produits .contenuS .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.Services_produits .contenuS .card .gaucheS{
+  flex: 0 0 30%;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color:rgb(255, 255, 255);
+  color:#fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px #4d4d4d;
+  color:rgb(46, 46, 46);
+  padding:20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Services_produits .contenuS .card .droiteS img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+.contenuS{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-service h1{
+  color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.services{
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px 100px;
+    height: 300px;
+}
+.services h1{
+color: rgb(0, 0, 0);
+}
+.services{
+    display: flex;
+    margin-top: -10px;
+   justify-content: center;
+    flex-wrap:wrap;
+    overflow-x:hidden;
+}
+ .services .service{
+    margin-right: 30px;
+}
+ .services .service p{
+    max-width: 300px;
+}
+
+/*Services jsp*/
+
+/*footer*/
+
+footer {
+    height: 120px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+footer h3 {
+  color: #DEB887;
+  }
+  footer a {
+    color:#ccc;
+  }
+  footer a:hover{
+    color: white;
+  }
+  footer p {
+  cursor: pointer;
+  color: #ccc;
+  }
+  footer p:hover {
+  color: white;
+  }
+
+/*footer*/
+
+  /*utilisation des ressources en javascript*/
+
+.premieres-presentations {
+  opacity: 0; transition: all 1s;
+filter: blur (5px);
+transform: translateX(-100%);
+  }
+  .show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+ }
+

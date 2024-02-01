@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #e5e5e5;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #60576b;
+}
+/*scrollbar*/
+
+/*contenu FAQ*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+
+body {
+    overflow-x:hidden;
+    background-color: #b9c3fd;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+   
+}
+/*header*/
+header {
+  background-color: #0a0a0a;
+  height: 100px ;
+  width: 100%;
+  top:0;
+  left :0;
+  position:sticky;
+  z-index: 2;
+}
+header .barnav {
+  height: 100%;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  color:black;
+}
+.barnav .menudenavigation ul {
+  display: flex;
+}
+.barnav .menudenavigation ul li {
+  margin: 0 50px 0 20px;
+  color:rgb(8, 8, 8);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.barnav a{
+  color: #ffffff;
+}
+
+.barnav a img{
+  height:70%;
+  width: 70%;
+}
+
+.barnav .menudenavigation ul li a:hover {
+  color : white ;
+  cursor: pointer;
+}
+/*header*/
+
+
+/*fleche*/
+.btn-arrow {
+  height: 50px;
+  width: 50px;
+  background: rgb(248, 250, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0px 1px 6px #4d4d4d;
+  color:rgb(46, 46, 46);
+}
+.icone {
+  width: 25px;
+  z-index: 2;
+}
+/*fleche*/
+
+/*contenue*/
+
+.Demande{
+  margin-top: 20px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  filter: drop-shadow(0 0 10px ,rgba(0, 0, 0, 0.5));
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 780px;
+  background-image:url(../Img/fond-blanc-lignes-mouvement-diagonale_1017-33198.webp);
+}
+.FAQ {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.titre {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.contenu-FAQ {
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+.questionF-reponseF{
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-img {
+  width: 320px;
+}
+
+.titre-question {
+  margin: 1.4rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+
+.up-icon {
+  display: none;
+}
+
+.reponse {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  display: none;
+}
+
+.show-text .reponse {
+  display: block;
+}
+
+.show-text .up-icon {
+  display: inline;
+}
+
+.show-text .down-icon {
+  display: none;
+}
+
+/*contenue*/
+/*footer*/
+
+footer {
+height: 120px;
+padding: 20px;
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+bottom: 0;
+}
+footer h3 {
+  color: #DEB887;
+  }
+  footer a {
+    color:#ccc;
+  }
+  footer a:hover{
+    color: white;
+  }
+  footer p {
+  cursor: pointer;
+  color: #ccc;
+  }
+  footer p:hover {
+  color: white;
+  }
+/*footer*/
